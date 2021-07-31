@@ -1,0 +1,112 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "infractions": {
+                "collisions_layout": 0.030045130588533916,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 0.015022565294266958,
+                "outside_route_lanes": 0.0,
+                "red_light": 0.0,
+                "route_dev": 0.0,
+                "route_timeout": 0.0,
+                "stop_infraction": 0.015022565294266958,
+                "vehicle_blocked": 0.0
+            },
+            "meta": {
+                "exceptions": [
+                    [
+                        "RouteScenario_1",
+                        0,
+                        "Failed"
+                    ]
+                ]
+            },
+            "route_id": -1,
+            "scores": {
+                "score_composed": 11.964374166136666,
+                "score_penalty": 0.2028,
+                "score_route": 58.99592784091058
+            },
+            "status": "Failed"
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.ground and id=0 at (x=71.158, y=50.439, z=0.034)",
+                        "Agent collided against object with type=static.ground and id=0 at (x=67.061, y=54.74, z=0.068)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.lincoln.mkz2017 and id=259 at (x=242.5, y=87.016, z=0.182)"
+                    ],
+                    "outside_route_lanes": [],
+                    "red_light": [],
+                    "route_dev": [],
+                    "route_timeout": [],
+                    "stop_infraction": [
+                        "Agent ran a stop with id=121 at (x=144.779, y=62.663, z=0.797)"
+                    ],
+                    "vehicle_blocked": []
+                },
+                "meta": {
+                    "duration_game": 160.25000238791108,
+                    "duration_system": 703.9837174415588,
+                    "route_length": 1128.3240988201576
+                },
+                "route_id": "RouteScenario_1",
+                "scores": {
+                    "score_composed": 11.964374166136666,
+                    "score_penalty": 0.2028,
+                    "score_route": 58.99592784091058
+                },
+                "status": "Failed"
+            }
+        ]
+    },
+    "eligible": true,
+    "entry_status": "Finished",
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked"
+    ],
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_camera"
+    ],
+    "values": [
+        "11.964",
+        "58.996",
+        "0.203",
+        "0.000",
+        "0.015",
+        "0.030",
+        "0.000",
+        "0.015",
+        "0.000",
+        "0.000",
+        "0.000",
+        "0.000"
+    ]
+}
