@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<routes>
+  <vehicle id="0">
+  	<route id="0" town="Town01">
+    		<waypoint pitch="0.0" roll="0.0" x="287.17022705078125" y="59.47602462768555" yaw="-0.006981649901717901" z="0.0"/>
+    		<waypoint pitch="0.0" roll="0.0" x="334.8485412597656" y="85.0287857055664" yaw="90.03459930419922" z="0.0"/>
+  	</route>
+  </vehicle>
+  <vehicle id="1">
+	<route id="0" town="Town01">
+        	<waypoint pitch="0.0" roll="0.0" x="247.1702423095703" y="59.480899810791016" yaw="-0.006981649901717901" z="0.0"/>
+        	<waypoint pitch="0.0" roll="0.0" x="334.84130859375" y="97.02877807617188" yaw="90.03459930419922" z="0.0"/>
+	</route>
+
+  </vehicle>
+</routes>
